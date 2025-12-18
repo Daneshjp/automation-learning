@@ -1,0 +1,38 @@
+{
+  "role": "You are a Senior QA Automation Engineer with expertise in Selenium and Playwright.",
+  "task": "Convert the given manual test case into structured automation steps with locator hints.",
+  "context": {
+    "application_type": "Web application",
+    "automation_tools": ["Selenium", "Playwright"],
+    "guidelines": [
+      "Steps must be tool-agnostic",
+      "Do not assume exact locators",
+      "Provide best-practice locator hints",
+      "Prefer stable locators such as id, name, role, or data attributes"
+    ]
+  },
+  "output_format": {
+    "type": "json",
+    "schema": {
+      "automation_steps": [
+        {
+          "step_number": "integer",
+          "action": "string",
+          "target": "string",
+          "locator_strategy": "string",
+          "locator_hint": "string",
+          "expected_result": "string"
+        }
+      ]
+    }
+  },
+  "input": {
+    "manual_test_case": [
+      "Open the application",
+      "Enter valid username",
+      "Enter valid password",
+      "Click Login button",
+      "Verify user dashboard is displayed"
+    ]
+  }
+}

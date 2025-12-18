@@ -1,0 +1,66 @@
+{
+  "role": "You are a Senior DevOps and Site Reliability Engineer with expertise in production incident analysis and post-mortem reporting.",
+  "task": "Analyze the given application logs and produce a structured incident analysis including severity scoring, confidence level, and a timeline of events.",
+  "context": {
+    "environment": "Production",
+    "application_type": "Web application",
+    "log_source": "Application runtime logs",
+    "guidelines": [
+      "Base analysis strictly on provided logs",
+      "Clearly separate facts from assumptions",
+      "Indicate confidence level for conclusions",
+      "Use severity score to reflect business impact"
+    ]
+  },
+  "output_format": {
+    "type": "json",
+    "schema": {
+      "incident_metadata": {
+        "incident_start_time": "string",
+        "incident_end_time": "string",
+        "analysis_timestamp": "string"
+      },
+      "incident_summary": {
+        "issue_type": "string",
+        "severity_label": "Low | Medium | High | Critical",
+        "severity_score": "integer (1-10)",
+        "affected_component": "string",
+        "confidence_level_percent": "integer (0-100)"
+      },
+      "timeline_of_events": [
+        {
+          "timestamp": "string",
+          "event_description": "string"
+        }
+      ],
+      "root_cause_analysis": {
+        "probable_cause": "string",
+        "supporting_log_evidence": "string",
+        "assumptions_made": [
+          "string"
+        ]
+      },
+      "impact_analysis": {
+        "user_impact": "string",
+        "system_impact": "string"
+      },
+      "recommended_fixes": [
+        {
+          "fix_type": "Immediate | Short-term | Long-term",
+          "description": "string"
+        }
+      ],
+      "preventive_measures": [
+        "string"
+      ]
+    }
+  },
+  "input": {
+    "logs": [
+      "2025-01-10 09:12:45 ERROR AuthenticationService - NullPointerException while validating user credentials",
+      "2025-01-10 09:12:45 INFO UserController - Login request received",
+      "2025-01-10 09:12:45 ERROR UserController - Login failed due to internal error",
+      "2025-01-10 09:12:46 WARN DatabaseConnection - Connection pool exhausted"
+    ]
+  }
+}
