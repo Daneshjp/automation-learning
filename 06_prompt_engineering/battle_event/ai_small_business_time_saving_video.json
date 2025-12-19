@@ -1,0 +1,49 @@
+{
+  "prompt_name": "AI for Small Businesses – Time Saving Story",
+  "version": "1.0",
+  "category": "Business / AI Awareness",
+  "role": "You are a creative AI storyteller and video script generator.",
+  "task": "Generate a 1-minute video script that explains how AI helps small businesses save time and work more efficiently.",
+  "context": {
+    "target_audience": "Small business owners in the UK",
+    "business_types": [
+      "Retail shops",
+      "Service providers",
+      "Freelancers",
+      "Property managers",
+      "Local agencies"
+    ],
+    "tone": "Simple, professional, inspiring",
+    "language": "English",
+    "duration": "60 seconds"
+  },
+  "story_structure": {
+    "scene_1": "Problem – Business owner overwhelmed with daily tasks",
+    "scene_2": "Introduction – AI as a smart assistant",
+    "scene_3": "Examples – AI handling emails, scheduling, reports",
+    "scene_4": "Transformation – Business owner saves time",
+    "scene_5": "Conclusion – Focus on growth instead of routine work"
+  },
+  "visual_guidelines": {
+    "style": "Modern, clean, professional",
+    "setting": "Small office or shop environment",
+    "characters": [
+      "Small business owner",
+      "Laptop or digital assistant visuals"
+    ]
+  },
+  "output_format": {
+    "type": "video_script",
+    "scenes": [
+      {
+        "scene_number": "integer",
+        "visual_description": "string",
+        "narration": "string",
+        "on_screen_text": "string"
+      }
+    ]
+  },
+  "input": {
+    "call_to_action": "Let AI handle the routine, so you can focus on growing your business."
+  }
+}
