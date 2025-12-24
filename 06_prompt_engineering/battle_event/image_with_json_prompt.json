@@ -1,0 +1,68 @@
+{
+  "prompt_name": "AI Automation Freelance Agency – Branding Visual",
+  "version": "1.0",
+  "model_role": "expert AI image generation system for business branding visuals",
+  "task": "Generate a high-quality, futuristic marketing image representing a freelance AI agency delivering AI agent automation services to business clients.",
+  "business_context": {
+    "business_type": "AI Automation Freelance Agency",
+    "target_customers": [
+      "Small and medium businesses",
+      "Startups",
+      "Professional service firms",
+      "E-commerce companies",
+      "SaaS companies"
+    ],
+    "brand_personality": [
+      "Professional",
+      "Trustworthy",
+      "Innovative",
+      "Modern",
+      "Scalable"
+    ]
+  },
+  "visual_prompt": {
+    "scene_description": "A modern digital workspace where multiple AI agents operate autonomously on holographic dashboards inside a futuristic office environment.",
+    "ai_agents": [
+      "Chatbot agent handling customer support conversations",
+      "Automation agent managing business workflows and task pipelines",
+      "Analytics agent displaying real-time business insights and performance metrics",
+      "Integration agent connecting APIs, cloud services, and enterprise systems"
+    ],
+    "human_element": "A confident freelance AI consultant observing and guiding the AI agents through a transparent holographic control interface",
+    "environment": "Futuristic office with soft electric blue and deep purple lighting, floating UI panels, cloud visuals, and flowing data streams",
+    "technology_elements": [
+      "Neural network patterns",
+      "Automation flow diagrams",
+      "Workflow pipelines",
+      "API connection lines",
+      "Cloud infrastructure icons"
+    ]
+  },
+  "style_and_mood": {
+    "art_style": "Photorealistic with subtle futuristic digital illustration elements",
+    "color_palette": [
+      "Electric blue",
+      "Deep purple",
+      "Soft white highlights"
+    ],
+    "lighting": "Clean, cinematic lighting with glowing holographic UI elements",
+    "mood": "Confident, intelligent, professional, business-focused"
+  },
+  "composition": {
+    "camera_angle": "Wide-angle, slightly elevated perspective",
+    "focus": "AI agents and automation dashboards as the core value proposition",
+    "branding_space": "Clean empty space suitable for adding a company logo or tagline"
+  },
+  "output_requirements": {
+    "resolution": "4K",
+    "aspect_ratio": "16:9",
+    "text_in_image": "None",
+    "watermark": "None"
+  },
+  "constraints": [
+    "No cartoon or anime style",
+    "No cluttered visuals",
+    "No exaggerated sci-fi characters",
+    "Must look suitable for a professional business website"
+  ]
+}
